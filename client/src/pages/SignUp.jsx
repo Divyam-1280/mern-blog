@@ -43,7 +43,7 @@ function SignUp() {
   };
 
   return (
-    <div className="min-h-screen mt-20 mx-16">
+    <div className="h-[70vh] mt-20 mx-16">
       <div className="flex max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5">
         <div className="flex-1">
           <Link
