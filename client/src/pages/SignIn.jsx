@@ -7,6 +7,7 @@ import {
   signInFailure,
 } from "../redux/user/userSlice";
 import { useDispatch, useSelector } from "react-redux";
+import OAuth from "../components/OAuth";
 
 function SignIn() {
   const [formData, setformData] = useState({});
@@ -48,7 +49,7 @@ function SignIn() {
   };
 
   return (
-    <div className="h-screen translate-y-[25%] mx-16">
+    <div className="h-screen translate-y-[20%] mx-16">
       <div className="flex max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5">
         <div className="flex-1">
           <Link
@@ -90,6 +91,7 @@ function SignIn() {
                 "Sign In"
               )}
             </Button>
+            <OAuth />
           </form>
           <div className="flex gap-1 text-sm mt-2">
             <span className="font-semibold">Don't have an account?</span>

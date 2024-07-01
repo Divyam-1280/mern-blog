@@ -1,4 +1,4 @@
-import { Button, Navbar, NavbarCollapse, TextInput } from "flowbite-react";
+import { Button, Navbar, TextInput } from "flowbite-react";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -29,7 +29,7 @@ function Header() {
           <FaMoon />
         </Button>
         <Link to={"/sign-in"}>
-          <Button color="gray" pill>
+          <Button color="dark" pill>
             Sign-in
           </Button>
         </Link>
