@@ -7,7 +7,9 @@ import { FaFacebook } from "react-icons/fa";
 
 function FooterCom() {
   return (
-    <Footer container className="border border-t-8 border-black">
+    <Footer
+      container
+      className="border border-t-8 border-black dark:border-white dark:text-white dark:bg-black">
       <div className="w-full max-w-7xl mx-auto">
         <div className="grid w-full justify-between sm:flex sm:grid-cols-1">
           <div className="mt-5">
